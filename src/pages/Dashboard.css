@@ -1,0 +1,192 @@
+/* Dashboard css starts */
+.dashboard1 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.layout-row-1 {
+    padding: 32px 32px 0 32px;
+    display: flex;
+    gap: 32px;
+}
+
+.layout-row-2 {
+    padding: 0 32px;
+    display: flex;
+    gap: 32px;
+}
+
+.layout-row-1 .layout-col-1 {
+    width: fit-content;
+}
+
+.layout-row-1 .layout-col-2 {
+    flex-grow: 1;
+}
+
+.layout-row-2 .layout-col-1 {
+    flex-grow: 2;
+    min-width: 600px;
+}
+
+.layout-row-2 .layout-col-2 {
+    flex-grow: 1.5;
+}
+
+.layout-row-2 .layout-col-3 {
+    flex-grow: 1.3;
+}
+
+.card {
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: 1px solid #F8F9FA;
+    box-shadow: 0px 4px 20px 0px rgba(238, 238, 238, 0.50);
+    /*height: 365px;*/
+}
+
+.sub-title {
+    color: #737791;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.today-sales-widget {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px 32px;
+}
+
+.today-sales-widget .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.export-button {
+    border-radius: 8px;
+    border: 1px solid #C3D3E2;
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    font-family: 'Poppins', Inter, Helvetica, Arial, sans-serif;
+    color: #0F3659;
+    background-color: transparent;
+}
+
+.sales-summary-card {
+    /*width: 180px;*/
+    /*height: 184px;*/
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.red {
+    background-color: #FFE2E5;
+}
+
+.yellow {
+    background-color: #FFF4DE;
+}
+
+.green {
+    background-color: #DCFCE7;
+}
+
+.purple {
+    background-color: #F3E8FF;
+}
+
+.summary-title {
+    color: #425166;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 4px;
+}
+
+.summary-insight {
+    color: #4079ED;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 2px;
+}
+
+.visitor-insights h6, .r-chart-head {
+    padding-left: 32px;
+    padding-top: 24px;
+}
+
+.r-chart-container {
+    min-height: 200px;
+    max-height: fit-content;
+}
+
+.total-revenue-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.total-revenue-table thead tr {
+    text-align: left;
+    color: #96A5B8;
+    font-size: 13px;
+    font-weight: 400;
+    border-bottom:1px solid #EDF2F6;
+}
+
+.total-revenue-table td, .total-revenue-table th {
+    padding: 18px 12px;
+}
+
+.total-revenue-table tbody tr {
+    border-bottom:1px solid #EDF2F6;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.status-indicator {
+    border: 1px solid;
+    width: 50px;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 8px;
+    padding: 2px 0;
+}
+
+.status-indicator.blue {
+    border: 1px solid #0095FF;
+    color: #0095FF;
+    background-color: #F0F9FF;
+}
+
+.status-indicator.green {
+    border: 1px solid #00E58F;
+    color: #00E58F;
+    background-color: #F0FDF4;
+}
+
+.status-indicator.purple {
+    border: 1px solid #884DFF;
+    color: #884DFF;
+    background-color: #FBF1FF;
+}
+
+.status-indicator.orange {
+    border: 1px solid #FF8900;
+    color: #FF8900;
+    background-color: #FEF6E6;
+}
+
+.legend-divider {
+    border-top: 1px solid #EDF2F6;
+    height: 100px;
+}
+
+
+/* Dashboard css ends */
